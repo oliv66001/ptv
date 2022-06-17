@@ -1,0 +1,9 @@
+/*Page corps principal*/
+body {
+  background: linear-gradient(white, white, #a1cdf4, #a9afd1, #2a9134);
+}
+/*Logo*/
+.logo {
+  width: 100px;
+  height: 50%;
+}
