@@ -7,3 +7,16 @@ body {
   width: 100px;
   height: 50%;
 }
+/*Image responsive*/
+@media screen and (max-width: 600px) {
+  img-fluid {
+    width: 100px;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  img-fluid {
+    width: 300px;
+    height: 70%;
+  }
+}
