@@ -1,16 +1,48 @@
 /*Image responsive*/
+@media (max-width: 282px) {
+  .img-responsive {
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+
+    border-radius: 4px;
+  }
+  p {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+  }
+  h3 {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+  }
+  .row {
+    text-align: center;
+
+    padding-right: 20px;
+  }
+}
+
 @media (max-width: 575px) {
   .img-responsive {
     width: 100%;
   }
   .img {
-    width: 50%;
-    text-align: center;
+    width: 100%;
+
+    border-radius: 4px;
   }
-  .page-header {
+  p {
     text-align: center;
     text-justify: center;
-    font-size: 1.5em;
+    font-size: 20px;
+  }
+  h3 {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
   }
   .row {
     text-align: center;
@@ -25,10 +57,17 @@
   .img {
     width: 100%;
     text-align: center;
+
+    border-radius: 4px;
   }
-  .page-header {
+  p {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 20px;
+  }
+  h3 {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
   }
   .row {
     text-align: center;
@@ -42,11 +81,18 @@
   .img {
     width: 100%;
     text-align: center;
+
+    border-radius: 4px;
   }
-  .page-header {
+  p {
     text-align: center;
     text-justify: center;
-    font-size: 1.5em;
+    font-size: 20px;
+  }
+  h3 {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
   }
   .row {
     text-align: center;
@@ -56,26 +102,52 @@
 }
 @media (max-width: 1199px) {
   .img-responsive {
-    width: 120%;
+    width: 100%;
   }
 
   .img {
     width: 100%;
-    text-align: center;
+
+    border-radius: 4px;
   }
-  .page-header {
+  p {
     text-align: center;
     text-justify: center;
-    font-size: 1.5em;
+    font-size: 20px;
+  }
+  h3 {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
   }
   .row {
     text-align: center;
     padding-left: 25px;
   }
 }
+@media (max-width: 1599px) {
+  .img-responsive {
+    width: 100%;
+  }
+  .img {
+    width: 80%;
 
-.img {
-  border-radius: 2%;
+    border-radius: 4px;
+  }
+  p {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+  }
+  h3 {
+    text-align: center;
+    text-justify: center;
+    font-size: 20px;
+  }
+  .row {
+    text-align: center;
+    padding-left: 25px;
+  }
 }
 
 /*Titre*/
@@ -109,7 +181,7 @@ p {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   padding-bottom: 20px;
   text-align: center;
