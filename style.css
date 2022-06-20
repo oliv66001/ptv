@@ -298,6 +298,9 @@ ul {
   text-font-sizes: 20px;
   margin: 20px;
 }
+#btnEnvoyé {
+  width: 20;
+}
 
 /*carrousel bas de page*/
 .carousel-inner {
@@ -320,4 +323,10 @@ ul {
 /*Page don */
 .imageDon {
   padding: 20px;
+}
+
+/*formulaire*/
+#checkbouton {
+  item-align: center;
+  margin-left: 100px;
 }
