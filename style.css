@@ -127,12 +127,12 @@
 }
 @media (max-width: 1599px) {
   .img-responsive {
-    width: 100%;
+    width: 80%;
   }
   .img {
     width: 80%;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 4px;
+    box-shadow: 0px 5px 15px black;
+    border-radius: 5px;
   }
   p {
     text-align: center;
@@ -164,11 +164,20 @@ h1 {
 body {
   background: linear-gradient(white, white, #a1cdf4, #a9afd1, #2a9134);
 }
-
 .page-header {
   border: 1px solid black;
   box-shadow: 0px 0px 10px black;
 }
+/*image*/
+.img-fluid {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 4px;
+}
+.d-block {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 4px;
+}
+
 /*Logo*/
 .logo {
   width: 130px;
@@ -176,9 +185,6 @@ body {
 }
 
 /*Barre de navigation*/
-a {
-  font-size: 15px;
-}
 
 p {
   padding-top: 40px;
@@ -260,7 +266,7 @@ h5 {
 }
 .clignote1 {
   color: blue;
-  animation: clignote 1s linear infinite;
+  animation: clignote 3s linear infinite;
 }
 @keyframes clignote {
   50% {
@@ -299,12 +305,21 @@ ul {
   margin: 20px;
 }
 #btnEnvoyé {
-  width: 20;
+  width: 80px;
 }
-
+#btndon1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  text-align: center;
+  background: linear-gradient(white, #a1cdf4, #a9afd1);
+  width: 100px;
+  margin: 20px;
+}
 /*carrousel bas de page*/
 .carousel-inner {
-  padding: 30px;
+  padding: 20px;
+  width: 100%;
 }
 
 /* class card bas de page*/
